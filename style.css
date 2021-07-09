@@ -1,0 +1,96 @@
+/* Selects all elements */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif;
+	border-radius: 5px;
+}
+body {
+	width: 100%;
+	overflow-x: hidden;
+	font-weight: bold;
+ 	background-image: radial-gradient(circle, #1d0330, #200536, #23063c, #270643, #2b0649, #320754, #39075f, #40076b, #4c097f, #590c93, #650ea8, #7211be)
+}
+.clockContainer {
+	color: white;
+	background-color: black;
+  box-shadow: 0 6px 50px 1px white;
+	border-style: solid;
+  margin: auto;
+  max-width: 300px;
+  min-width: 100px;
+  text-align: center;
+  font-size: 33px;
+  padding: 10px;
+  margin-top: 100px;
+}
+#daysOfWeek {
+  display: block;
+  font-size: 20px;
+}
+h1 {
+	text-align: center;
+	margin-top: 60px;
+	color: white;
+	font-size: 55px;
+}
+.container {
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	background-image: url(white-elements.png);
+}
+.createTask {
+	width: 70%;
+	margin: 10px auto;
+	display: table;
+}
+.createTask input {
+	width: 80%;
+	border: 1px solid white;
+	padding-left: 10px;
+}
+.createTask button {
+	width: 10%;
+	background-color: black;
+	color: white;
+ 	border-style: solid;
+}
+.createTask button:hover {
+	background-color: red;
+	font-size: 15px;
+	cursor: crosshair;
+}
+
+.createTask input, .createTask button {
+	height: 35px;
+	float: left;
+	font-size: 20px;
+	box-shadow: 0 4px 5px 1px #CDC1E1;
+}
+#toDoList {
+	width: 70%;
+	margin: 20px auto;
+	list-style-type: none;
+}
+#toDoList li {
+	margin-bottom: 15px;
+	padding: 10px;
+	box-shadow: 0 4px 5px 1px #CDC1E1;
+	font-size: 25px;
+	background: white;
+}
+#toDoList li a {
+	float: right;
+	cursor: pointer;
+	margin-left: 40px;
+}
+#toDoList li:hover {
+	background-color: #CDC1E1;
+	color: purple;
+}
+#toDoList li a:hover {
+	color: red;
+	font-size: 27px;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ToDo List</title>
+
+<!-- The font "Valera Round" was chosen. The link was added in order to display the font. -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nobile:wght@500&family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+<!-- The icon was added to be displayed along with the website's title. -->
+  <link rel="icon" type="image/png" href="icon-image.png">
+</head>
+
+<!-- Onload Event executes a JavaScript immediately after the page has been loaded -->
+<body onload="timeAndDate()">
+  <div class="clockContainer">
+      <span id="clock"></span>
+      <span id="daysOfWeek"></span>
+  </div>
+
+    <h1>Create your To-Do list</h1>
+  <div class="container">
+      <div class="createTask">
+          <input type="text" id="inputField" placeholder="Create your task...">
+          <button id="buttonAdd">Add</button>
+          <button id="buttonDelete">Clear</button>
+      </div>
+          <ul id="toDoList"></ul>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
